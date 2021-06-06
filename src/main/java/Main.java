@@ -16,7 +16,7 @@ public class Main {
         double height = input.nextDouble();
 
         double bmi = (weight / (height * height)) * 703;
-        System.out.printf("Your BMI is %.1f.%n", bmi);
+        System.out.printf("Your BMI is %.1f%n", bmi);
 
         if(bmi < 18.5){
             System.out.print("You are underweight. Please see a doctor.");
